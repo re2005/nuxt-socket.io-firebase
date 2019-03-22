@@ -12,7 +12,7 @@ module.exports = {
     ** Headers of the page
     */
     head: {
-        title: pkg.name,
+        title: 'Supermarket list',
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -43,10 +43,7 @@ module.exports = {
     /*
     ** Nuxt.js modules
     */
-    modules: [
-        // Doc: https://axios.nuxtjs.org/usage
-        '@nuxtjs/axios',
-    ],
+    modules: [],
     /*
     ** Axios module configuration
     */

@@ -1,7 +1,7 @@
-export const state = {
+export const state = () => ({
     listItems: [],
     suggestItems: [],
-};
+});
 
 export const actions = {
     updateList({commit}, value) {
