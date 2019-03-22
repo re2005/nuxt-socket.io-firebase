@@ -41,7 +41,7 @@ function socketStart(server) {
         suggestList: [],
     };
 
-    const serviceAccount = require('./list.json');
+    const serviceAccount = require('./firebase.json');
     admin.initializeApp({
         credential: admin.credential.cert(serviceAccount),
         databaseURL: 'https://list-37525.firebaseio.com'
