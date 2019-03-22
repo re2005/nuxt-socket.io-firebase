@@ -17,7 +17,7 @@ async function start() {
     // Build only in dev mode
     if (config.dev) {
         const builder = new Builder(nuxt);
-        await builder.build()
+        await builder.build();
     } else {
         await nuxt.ready();
     }
@@ -33,7 +33,7 @@ async function start() {
     });
 
     socketStart(server);
-    console.log('Socket.IO starts')
+    console.log('Socket.IO starts');
 }
 
 function socketStart(server) {
@@ -63,7 +63,7 @@ function socketStart(server) {
         application.users++;
 
         socket.on('disconnect', () => {
-            application.users--
+            application.users--;
         });
 
         listRef.on('value', data => {
