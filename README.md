@@ -1,6 +1,6 @@
-# renatex
+# Supermarket List
 
-> My riveting Nuxt.js project
+> Small TODO created using Nuxt, Socket.io and Firebase
 
 ## Build Setup
 
